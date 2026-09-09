@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      The app's cream page background. Used for the system bars so the status
+      and navigation bars match the web view instead of framing it in black.
+    -->
+    <color name="atronzSurface">#FAF8F4</color>
+</resources>

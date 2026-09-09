@@ -1,0 +1,50 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.env
+.env.*
+!.env.example
+# The native projects are tracked: `cap sync` regenerates the web assets but
+# not hand-edited native files (system-bar themes, the manifest's
+# windowSoftInputMode, the INTERNET removal), so ignoring android/ would make
+# those unrecoverable. Only build output and local machine paths are ignored.
+android/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+ios/
+*.tsbuildinfo
+
+# --- Signing material and build artefacts: never committed ---------------
+# Keystores and signing credentials
+*.keystore
+*.jks
+*.p12
+*.pfx
+keystore.properties
+signing.properties
+android/keystore.properties
+android/app/*.keystore
+android/app/*.jks
+release-signing.properties
+
+# Compiled app packages — the debug APK is a build output, not source
+*.apk
+*.aab
+*.idsig
+
+# Gradle / Android Studio local state
+.gradle/
+*.iml
+android/.idea/
+android/captures/
+local.properties
+
+# Editor and OS noise
+.idea/
+.vscode/
+Thumbs.db

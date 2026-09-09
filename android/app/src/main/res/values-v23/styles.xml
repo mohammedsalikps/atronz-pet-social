@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Status bar treatment, from API 23 where `windowLightStatusBar` exists.
+      The app is a light, cream surface at every route, so the bar is tinted to
+      match and its icons are drawn dark to stay legible.
+    -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:statusBarColor">@color/atronzSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
